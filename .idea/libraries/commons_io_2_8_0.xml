@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="commons-io-2.8.0">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/src/pkg/ExternalLibraries/commons-io-2.8.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/src/pkg/ExternalLibraries/JDA-4.2.1_259-withDependencies.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
