@@ -1,5 +1,5 @@
 <p align="center">
-<img src="e" width="150" alt="icon">
+<img src="https://raw.githubusercontent.com/udu3324/mcChatRelay/master/src/pkg/Main/icon.png" width="150" alt="icon">
 </p>
 <p align="center">
 	  mcChatRelay
