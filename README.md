@@ -15,17 +15,19 @@
 </p>
 <h2>mcChatRelay</h2>
 mcChatRelay is a java application that relays messages from a server to discord. Minecraft will be 
-required to run a instance first so the program can hook to its latest.log file and monitor it.
+required to run a instance first, so the program can hook to its latest.log file.
 
 <h2>Dependencies</h2>
 In the repository, dependencies are already installed and is in a package called ExternalLibraries. 
 All you need is to have JDK 8 installed and have Intellij IDEA to build and run.
 
 <h3>Dependencies Used</h3>
+<p>
 JDA 4.2.1
-
+<br>
 Apache Commons IO 2.8.0
-  
+</p>
+
 <h2>Setup</h2>
 <p>
 1, Make sure you have JDK 8
@@ -39,5 +41,4 @@ Apache Commons IO 2.8.0
 5, Run Main.java
 </p>
 <h2>After Setup</h2>
-After you have set up and ran mcChatRelay, you will need to do the session command in a channel the bot 
-is in or in the bots DMs. 
+After you have set up and ran mcChatRelay, you will need to do the session command in a channel , or the bots' DMs. 
