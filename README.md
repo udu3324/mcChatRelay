@@ -23,13 +23,18 @@ All you need is to have JDK 8 installed and have Intellij IDEA to build and run.
 
 <h3>Dependencies Used</h3>
 - JDA 4.2.1
+  
 - Apache Commons IO 2.8.0
 
 <h2>Setup</h2>
 1. Make sure you have JDK 8
+   
 2. Clone the repository and open it in Intellij IDEA
+   
 3. Open Main.java (in src/pkg/main)
+   
 4. Change the 6 variables (mcLogLocation, token, status, prefix,  staffRoleID, and minecraftChatChannel)
+   
 5. Run Main.java
 
 <h2>After Setup</h2>
