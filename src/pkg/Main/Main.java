@@ -4,7 +4,7 @@
 // minecraftChatRelay is a java application that relays messages sent in minecraft to a discord server.
 //
 // To use minecraftChatRelay, you need to set 6 values.
-// The five values are mcLogLocation, token, status, prefix,
+// The six values are mcLogLocation, token, status, prefix,
 // staffRoleID, and minecraftChatChannel.
 //
 // The next thing is to build the bot and run it. You need to
