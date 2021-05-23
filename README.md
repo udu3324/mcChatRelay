@@ -22,17 +22,20 @@ In the repository, dependencies are already installed and is in a package called
 All you need is to have JDK 8 installed and have Intellij IDEA to build and run.
 
 <h3>Dependencies Used</h3>
-- +
-  JDA 4.2.1
-  Apache Commons IO 2.8.0
+JDA 4.2.1
+
+Apache Commons IO 2.8.0
   
 <h2>Setup</h2>
-1.
-1. Make sure you have JDK 8
-2. Clone the repository and open it in Intellij IDEA
-3. Open Main.java (in src/pkg/main)
-4. Change the 6 variables (mcLogLocation, token, status, prefix,  staffRoleID, and minecraftChatChannel)
-5. Run Main.java
+Make sure you have JDK 8
+
+Clone the repository and open it in Intellij IDEA
+
+Open Main.java (in src/pkg/main)
+
+Change the 6 variables (mcLogLocation, token, status, prefix,  staffRoleID, and minecraftChatChannel)
+
+Run Main.java
 
 <h2>After Setup</h2>
 After you have set up and ran mcChatRelay, you will need to do the session command in a channel the bot 
