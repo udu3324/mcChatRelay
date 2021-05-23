@@ -24,7 +24,7 @@ Apache Commons IO 2.8.0\
 JDA 4.2.1
 
 <h2>Setup</h2>
-1, Check if you have JDK 8.
-2, Clone the repo and load it into Intellij.
-3, Set 6 variables.
+1, Check if you have JDK 8.\
+2, Clone the repo and load it into Intellij.\
+3, Set 6 variables.\
 4, Build and run it.
