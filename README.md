@@ -15,7 +15,13 @@
 </p>
 <h2>mcChatRelay</h2>
 mcChatRelay is a java application that relays messages from a server to discord. Minecraft will be 
-required to run a instance first, so the program can hook to its latest.log file.
+required to run a instance first, so the program can hook to its latest.log file. You can also parse 
+messages sent in chat to send special messages to discord. For example, events, giveaways, alerts, 
+and more. It is recommended to have some type of reconnect mod to keep the minecraft instance online. 
+
+<h2>Minecraft Versions</h2>
+mcChatRelay can work on about every minecraft version. It is as long as if there is a log fie it 
+can hook up to and read off of. 
 
 <h2>Dependencies</h2>
 In the repository, dependencies are already installed and is in a package called ExternalLibraries. 
@@ -41,4 +47,4 @@ Apache Commons IO 2.8.0
 5, Run Main.java
 </p>
 <h2>After Setup</h2>
-After you have set up and ran mcChatRelay, you will need to do the session command in a channel , or the bots' DMs. 
+After you have set up and ran mcChatRelay, you will need to do the session command in a channel, or the bots DMs. 
