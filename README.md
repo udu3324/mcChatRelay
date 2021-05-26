@@ -19,9 +19,12 @@ required to run a instance first, so the program can hook to its latest.log file
 messages sent in chat to send special messages to discord. For example, events, giveaways, alerts, 
 and more. It is recommended to have some type of reconnect mod to keep the Minecraft instance online. 
 
-<h2>Minecraft Versions</h2>
+<h2>Pros</h2>
 mcChatRelay can work on about every Minecraft version. It is as long as if there is a log fie it 
 can hook up to and read off of. 
+
+<h2>Cons</h2>
+The only downtime mcChatRelay would have is minecraft itself go offline or have an invalid session. 
 
 <h2>Dependencies</h2>
 In the repository, dependencies are already installed and is in a package called ExternalLibraries. 
