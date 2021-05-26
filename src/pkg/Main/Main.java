@@ -33,6 +33,7 @@ public class Main extends ListenerAdapter {
     static public File mcLogLocation = new File("");
 
     // token is your bot token set in your discord developer applications.
+    // For example, "ODQ3MjM1MDY2OTMzMjgwNzk5.YK7HJA.KAstmxm9MjkaauPnaJ_Ku2dyOpU"
     static public String token = "";
 
     // status is the status shown on the bots bio.
@@ -118,31 +119,9 @@ public class Main extends ListenerAdapter {
                 latestLogLine = latestLogLine.replaceAll("```", "");
                 /* Chat MSG Sender */
                 System.out.println(latestLogLine);
-                if (!latestLogLine.contains("java.")) {
-                    if (!latestLogLine.contains("pool-2-thread")) {
-                        if (!latestLogLine.contains(".class")) {
-                            if (!latestLogLine.contains("[FabricLoader]")) {
-                                if (!latestLogLine.contains("SpongePowered")) {
-                                    if (!latestLogLine.contains("[AutoReconnect]")) {
-                                        if (!latestLogLine.contains("LWJGL")) {
-                                            if (!latestLogLine.contains("Reloading ResourceManager: Default,")) {
-                                                if (!latestLogLine.contains("[STDOUT]")) {
-                                                    if (!latestLogLine.contains("Environment: ")) {
-                                                        if (!latestLogLine.contains("[Shaders]")) {
-                                                            if (!latestLogLine.contains("[OptiFine]")) {
-                                                                String latestLogLineSend = latestLogLine.substring(31);
-                                                                mcChatRelayChannel.sendMessage("```"+latestLogLineSend+"```").queue();
-                                                            }
-                                                        }
-                                                    }
-                                                }
-                                            }
-                                        }
-                                    }
-                                }
-                            }
-                        }
-                    }
+                if (latestLogLine.contains("[CHAT]")) {
+                    String latestLogLineSend = latestLogLine.substring(31);
+                    mcChatRelayChannel.sendMessage("```"+latestLogLineSend+"```").queue();
                 }
             }   else {
                 System.out.println(" <!> Create a session! Do \""+prefix+"session\"");
