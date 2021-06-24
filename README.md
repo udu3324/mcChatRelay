@@ -6,7 +6,6 @@
 </p>
 <p align="center">
 	  <img src="https://img.shields.io/badge/java-8-blue">
-	  <img src="https://img.shields.io/badge/price-free-green">
 	  <img src="https://img.shields.io/github/issues/udu3324/mcchatrelay">
 </p>
 <p align="center">
@@ -27,10 +26,10 @@ can hook up to and read off of.
 The only downtime mcChatRelay would have is minecraft itself go offline or have an invalid session. 
 
 <h2>Dependencies</h2>
-In the repository, dependencies are already installed and is in a package called ExternalLibraries. 
+In the repository, dependencies are already installed and are in a package called ExternalLibraries. 
 All you need is to have JDK 8 installed and have Intellij IDEA to build and run.
 
-<h3>Dependencies Used</h3>
+<h3>Dependencies/External Libraries Used</h3>
 <p>
 JDA 4.2.1
 <br>
@@ -43,11 +42,11 @@ Apache Commons IO 2.8.0
 <br>
 2, Clone the repository and open it in Intellij IDEA
 <br>
-3, Open Main.java (in src/pkg/main)
+3, Open EditValuesHere.java (in src/pkg/Values)
 <br>
 4, Change the 6 variables (mcLogLocation, token, status, prefix,  staffRoleID, and minecraftChatChannel)
 <br>
-5, Run Main.java
+5, Run Main.java (in src/pkg/Main)
 </p>
 <h2>After Setup</h2>
-After you have set up and ran mcChatRelay, you will need to do the session command in a channel, or the bots DMs. 
+After you set up and ran mcChatRelay, you will need to do the session command in a channel or in the bot's DMs. 
