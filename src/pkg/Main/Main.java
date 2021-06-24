@@ -38,26 +38,6 @@ public class Main extends ListenerAdapter {
     public Integer sessionToggle = 1; //1 false | 0 true
 
     public static void main(String[] args) throws LoginException {
-        if (EditValuesHere.token.isEmpty()) {
-            System.out.println("You have to provide a token!");
-            System.exit(1);
-        }
-        if (EditValuesHere.status.isEmpty()) {
-            System.out.println("You have to provide a status!");
-            System.exit(1);
-        }
-        if (EditValuesHere.prefix.isEmpty()) {
-            System.out.println("You have to provide a prefix!");
-            System.exit(1);
-        }
-        if (EditValuesHere.staffRoleID.isEmpty()) {
-            System.out.println("You have to provide a staffRoleID!");
-            System.exit(1);
-        }
-        if (EditValuesHere.minecraftChatChannelID.isEmpty()) {
-            System.out.println("You have to provide a minecraftChatChannel!");
-            System.exit(1);
-        }
         JDABuilder
                 .createLight(EditValuesHere.token, GatewayIntent.GUILD_MESSAGES, GatewayIntent.DIRECT_MESSAGES)
                 .addEventListeners(new Main())

@@ -43,4 +43,27 @@ public class EditValuesHere {
     // for example, "838473566500421693"
     static public String minecraftChatChannelID = "";
 
+    // ignore this stuff below as it's checks for if you filled the stuff above
+    static {
+        if (token.isEmpty()) {
+            System.out.println("You have to provide a token!");
+            System.exit(-1);
+        }
+        if (status.isEmpty()) {
+            System.out.println("You have to provide a status!");
+            System.exit(-1);
+        }
+        if (prefix.isEmpty()) {
+            System.out.println("You have to provide a prefix!");
+            System.exit(-1);
+        }
+        if (staffRoleID.isEmpty()) {
+            System.out.println("You have to provide a staffRoleID!");
+            System.exit(-1);
+        }
+        if (minecraftChatChannelID.isEmpty()) {
+            System.out.println("You have to provide a minecraftChatChannel!");
+            System.exit(-1);
+        }
+    }
 }
